@@ -3,12 +3,12 @@
 # Tic-Tac-Toe Best Move Prediction with GPT-2
 This project aims to evaluate how well GPT-2 can generate optimal Tic-Tac-Toe moves compared to the classical minimax algorithm.
 
-#Overview
+# Overview
 The goal of the project is to prompt GPT-2 with a Tic-Tac-Toe board state and determine if it can output the best possible move. I will compare GPT-2’s predictions against the minimax algorithm, which always plays optimally, and measure the accuracy as well as the number of invalid moves.
 The data consists of pre-generated board states with corresponding best moves, including cases where GPT-2’s outputs are replaced with minimax moves if invalid.
 While GPT-2 is not trained specifically for game strategy, this project will help evaluate whether a language model can reason about a structured board game without fine-tuning.
 
-#Summary
+# Summary
 - ## Data
   -Dataset consists of board states stored as text prompts and labeled optimal moves.
   -Each board includes:
@@ -25,14 +25,14 @@ While GPT-2 is not trained specifically for game strategy, this project will hel
     - Extracted legal moves and validated both GPT-2 predictions and ground truth moves.
     - If a predicted or labeled move was illegal, replaced with minimax best move.
 - ## Visualization
-    - ###Prompt:
+    - ### Prompt:
         X: (0,1), (0,2), (1,0), (1,1), (1,2), (2,2)
         O: (0,0), (2,0)
         Empty: (2,1)
         Player: O
         Best move (row, col) is:
       - As you can see there is a few problems here I will make apparent. The generation of the data was correct and very thoroughly tested, however, due to what I believe was inncorrect prompts, many problems arose.
-    - ###Outputs:
+    - ### Outputs:
         Best Move: (2, 1) [INVALID MOVE - replaced with minimax best move]
         Ground Truth: (2, 1) [INVALID GT - replaced with minimax best move]
       -Due to improper prompts, we get this Invalid move notification, leading too the terrible accuracy
