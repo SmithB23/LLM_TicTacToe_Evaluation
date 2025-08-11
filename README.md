@@ -10,8 +10,8 @@ While GPT-2 is not trained specifically for game strategy, this project will hel
 
 # Summary
 - ## Data
-  -Dataset consists of board states stored as text prompts and labeled optimal moves.
-  -Each board includes:
+  - Dataset consists of board states stored as text prompts and labeled optimal moves.
+  - Each board includes:
     - X positions
     - O positions
     - Empty spaces
