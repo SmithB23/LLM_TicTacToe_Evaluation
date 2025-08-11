@@ -6,7 +6,7 @@ This project aims to evaluate how well GPT-2 can generate optimal Tic-Tac-Toe mo
 # Overview
 The goal of the project is to prompt GPT-2 with a Tic-Tac-Toe board state and determine if it can output the best possible move. I will compare GPT-2’s predictions against the minimax algorithm, which always plays optimally, and measure the accuracy as well as the number of invalid moves.
 The data consists of pre-generated board states with corresponding best moves, including cases where GPT-2’s outputs are replaced with minimax moves if invalid.
-While GPT-2 is not trained specifically for game strategy, this project will help evaluate whether a language model can reason about a structured board game without fine-tuning. Unfortunatly, the accuracy wa 0%.
+While GPT-2 is not trained specifically for game strategy, this project will help evaluate whether a language model can reason about a structured board game without fine-tuning. Unfortunatly, the accuracy was 0%.
 
 # Summary
 - ## Data
