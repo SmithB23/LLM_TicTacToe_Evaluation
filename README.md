@@ -1,5 +1,6 @@
 ![image](https://github.com/user-attachments/assets/362f9f1c-c5f7-4cbc-9416-e2cf087f7cde)
 
+# Video Walkthrough: [https://drive.google.com/file/d/1TlxSlZ1oW02kR4W2od9IoAn-XFXhxwR0/view?usp=sharing](https://drive.google.com/file/d/1TlxSlZ1oW02kR4W2od9IoAn-XFXhxwR0/view?usp=sharing)
 # Tic-Tac-Toe Best Move Prediction with GPT-2
 This project aims to evaluate how well GPT-2 can generate optimal Tic-Tac-Toe moves compared to the classical minimax algorithm.
 
